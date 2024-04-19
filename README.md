@@ -10,21 +10,21 @@ En este trabajo se crea una base de datos a partir de información entregada en 
 Para ver el código abre el archivo:
 ##### [tiendaelectronicos.ipynb](tiendaElectronicos.ipynb)
 
-##Librerías utilizadas
+## Librerías utilizadas
 - [Pandas](https://pandas.pydata.org/docs/)
 - [Numpy](https://numpy.org/doc/)
 - [Datetime](https://docs.python.org/3/library/datetime.html)
 - [Mysql.connector](https://dev.mysql.com/doc/connector-python/en/)
 
-##Lenguajes utilizados
+## Lenguajes utilizados
 - [Python](https://docs.python.org/3/)
 - [SQL](https://dev.mysql.com/doc/refman/8.3/en/language-structure.html)
 
-##Descripción del código
+## Descripción del código
                                 
 ----
 
-###MySQL
+### MySQL
 En la terminal se crea la base de datos
 `mysql>CREATE DATABASE minoristaelectronicos;`
 
@@ -33,10 +33,10 @@ Se crean las tablas siguiendo el siguiente formato y según el diagrama presenta
 `mysql>CREATE TABLE IF NOT EXISTS nombreTabla (columna1 TYPE(99) NOT NULL, columna2 TYPE(99),...,columnaN TYPE(99) ,PRIMARY KEY (columnaX))`
 
 
-###Python
+### Python
 El código está dividido en funciones como se presenta a continuación:
 
-#####- Importación de librerías
+##### -Importación de librerías
 
 ```Python
 import pandas as pd
@@ -56,7 +56,7 @@ def extraer_datos(ruta_de_archivo):
     data_frame=pd.DataFrame(archivo)
     return(data_frame)
 ```
-#####- Función de transformación de datos considera:
+##### - Función de transformación de datos considera:
 1. Separación de datos en tablas, según diagrama de entidad-relación.
 2. Transformación de formatos.
 
@@ -75,7 +75,7 @@ Requiere:
 1. Sentencia SQL.
 2. Nombre de tabla.
 
-#####- Finalmente las funciones son llamadas para hacer todas las acciones en el siguiente orden:
+##### - Finalmente las funciones son llamadas para hacer todas las acciones en el siguiente orden:
 1. Declaración de ruta de archivo origen.
 2. Llamar función extraer_datos.
 3. Almacenar tablas (DataFrames) al llamar la función transformación.
@@ -83,7 +83,7 @@ Requiere:
 5. Carga de datos a DB.
 6. (Opcional) Ejecutar para descargar tablas en formato CSV.
 
-#Consultas SQL
+# Consultas SQL
 Desde el archivo [queries.py](queries.py) se pueden ejecutar algunas de las consultas principales a la base de datos:
 	1. Ingresos totales.
 	2. Unidades vendidas. 
@@ -92,7 +92,7 @@ Desde el archivo [queries.py](queries.py) se pueden ejecutar algunas de las cons
     5. Promedio mensual. 
 	6. Preferencias por género.
 
-#Visualización de datos
+# Visualización de datos
 Se creó un [tablero](https://lookerstudio.google.com/u/0/reporting/a1d481e7-be3d-48f5-8273-ad333d791724/page/tEnnC?s=qrZwZnje6uY) en Looker Studio para la visualización de datos.
 ![](visualizacion/Tablero.png)
 >Tablero de visualización de datos.
