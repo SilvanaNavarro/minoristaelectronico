@@ -82,3 +82,17 @@ Requiere:
 4. Creación de tablas en base de datos (Conexión MySQL).
 5. Carga de datos a DB.
 6. (Opcional) Ejecutar para descargar tablas en formato CSV.
+
+#Consultas SQL
+Desde el archivo [queries.py](queries.py) se pueden ejecutar algunas de las consultas principales a la base de datos:
+	1. Ingresos totales.
+	2. Unidades vendidas. 
+	3. Lista de productos mas vendidos.
+	4. Promedio diario.
+    5. Promedio mensual. 
+	6. Preferencias por género.
+
+#Visualización de datos
+Se creó un [tablero](https://lookerstudio.google.com/u/0/reporting/a1d481e7-be3d-48f5-8273-ad333d791724/page/tEnnC?s=qrZwZnje6uY) en Looker Studio para la visualización de datos.
+![](visualizacion/Tablero.png)
+>Tablero de visualización de datos.
