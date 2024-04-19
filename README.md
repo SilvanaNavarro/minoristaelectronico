@@ -2,7 +2,7 @@
 
 En este trabajo se crea una base de datos a partir de información entregada en formato archivo.csv. Los datos son procesados y almacenados en una base de datos en MySQL siguiendo las tres reglas de normalización como se muestra en la imagen "Diagrama entidad relación". También se descargan las tablas en formato csv para ser cargadas a Big Query de forma paralela.
 
-![](/image.png)
+![](imagenes/image.png)
 >Diagrama Entidad relación
 
 
