@@ -21,7 +21,7 @@ Para ver el código abre el archivo:
 - [SQL](https://dev.mysql.com/doc/refman/8.3/en/language-structure.html)
 
 # Instalación de librerías
-Utiliza el comando `$>py -m pip --version` para saber si tienes instalado el manejador de paquetes PIP. Emplea el comando ` $> py -m pip install numpy` para instalar NumPy y, finalmente, usa ` $> py -m pip install` pandas para instalar Pandas.
+Utiliza el comando `$>py -m pip --version` para saber si tienes instalado el manejador de paquetes PIP. Emplea el comando ` $> py -m pip install numpy` para instalar NumPy y, finalmente, usa ` $> py -m pip install pandas` para instalar Pandas.
 
 Utiliza `$> pip install mysql-connector-python` para instalar mysql.connector
 
