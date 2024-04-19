@@ -8,7 +8,7 @@ En este trabajo se crea una base de datos a partir de información entregada en 
 
 # tiendaelectronicos.ipynb
 Para ver el código abre el archivo:
-##### [tiendaelectronicos.ipynb](https://github.com/SilvanaNavarro/minoristaelectronico.git/tiendaelectronicos.ipynb)
+##### [tiendaelectronicos.ipynb](tiendaElectronicos.ipynb)
 
 ##Librerías utilizadas
 - [Pandas](https://pandas.pydata.org/docs/)
